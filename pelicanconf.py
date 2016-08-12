@@ -7,7 +7,7 @@ SITENAME = u'Tektronica'
 SITEURL = 'https://omata.github.io'
 THEME = '/home/omata/Documentos/pelican/pelican-themes/pelican-bootstrap3/'
 PLUGIN_PATHS = ['/home/omata/Documentos/pelican/pelican-plugins']
-PLUGINS = ['googleplus_comments', 'just_table', 'pelicanfly']
+PLUGINS = ['googleplus_comments', 'just_table']
 
 # Configuración de PyEmbed
 from pyembed.markdown import PyEmbedMarkdown
