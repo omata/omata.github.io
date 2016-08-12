@@ -6,11 +6,15 @@ AUTHOR = u'Oscar A. Mata T.'
 SITENAME = u'Tektronica'
 SITEURL = 'https://omata.github.io'
 THEME = '/home/omata/Documentos/pelican/pelican-themes/pelican-bootstrap3/'
+PLUGIN_PATHS = ['/home/omata/Documentos/pelican/pelican-plugins']
+PLUGINS = ['googleplus_comments', 'just_table', 'pelicanfly']
+
+# Configuración de PyEmbed
+from pyembed.markdown import PyEmbedMarkdown
+MD_EXTENSIONS = [PyEmbedMarkdown()]
 
 PATH = 'content'
-
 TIMEZONE = 'America/Caracas'
-
 DEFAULT_LANG = u'es'
 
 # Configuración del tema de pelican-bootstrap3
