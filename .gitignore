@@ -143,3 +143,4 @@ sftp-config.json
 #####=== Pelican Bloging System ===#####
 output/
 pelican-themes/
+pelican-plugins/
